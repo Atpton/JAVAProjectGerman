@@ -1,4 +1,4 @@
-
+7777
 import java.util.Random;
 
 public class mm {
