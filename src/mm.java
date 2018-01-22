@@ -6,7 +6,18 @@ public class mm {
 		
 		Random rand = new Random();
 		for(int i=0;i<20;i++) 
-			if(20>rand.nextInt()) System.out.println(1);
+			if(20>rand.nextInt()) System.out.println(1+2);
+		//System.out.close();
+		int v=1;
+		while(v+1<10){
+			v=v+2;
+			System.out.println(v+"<-->");
+			if(v+3>100){
+				break;
+			}
+			
+		}
+		
 	}
 }
 
